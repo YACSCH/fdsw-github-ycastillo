@@ -1,7 +1,6 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-
 /* Hero Section */
 
 #Hero-Section {
@@ -12,6 +11,9 @@ body {
 }
 
 /* Mis trabajos */
+.navbar{
+  background-color: dodgerblue;
+}
 
 #Mis-trabajos .image-top {
   height: 250px;
