@@ -36,7 +36,10 @@ body {
   font-weight: 700;
   color: rgb(20, 7, 85);
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
