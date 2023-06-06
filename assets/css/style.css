@@ -1,20 +1,37 @@
+
+html {
+
+}
 body {
   font-family: 'Poppins', sans-serif;
   color: rgb(20, 7, 85);
 }
+.colorfondo {
+  background-color: rgb(20, 7, 85);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+
+}
 .navbar-custom {
   background-color: rgb(20, 7, 85);
 }
-.navbar-custom .navbar-brand {
-            color:white;
+.navbar-custom .navbar-brand .navbar-nav .nav-item {
+  color:white;
 }
 /* Hero Section */ 
 
-#Hero-Section{
-  background-image: url("../img/yamil_foto.jpeg");
+.hero-section{
+  height:500px;
+  background-image: url("../img/fotoYacs.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: left;
+  
   
   
 }
@@ -27,19 +44,14 @@ body {
   background-position: center;
 }
 
-.colorfondo {
-  background-color: rgb(20, 7, 85);
-}
+
 /* Contacto */
 
 #Contacto form label {
   font-weight: 700;
   color: rgb(20, 7, 85);
 }
-a{
-  text-decoration: none;
-  color: white;
-}
+
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
